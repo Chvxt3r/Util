@@ -130,6 +130,39 @@ git config --global credential.helper store
 # Password: <Github PAT>                                                                                                                                                                     
 ```
 
+## .gitignore  
+> ignores only files in the directory and subdirectory.
+.gitignore is just a list of folders and file names  
+
+### Wildcards  
+`*` - matches any characters except `(/)`
+`*.txt` - Matches all .txt files  
+
+### Rooted Patterns
+gitignore file is rooted at the directory it's in. In the example, git would ignore main.py, but not any subdirectories  
+Example:   
+```
+/main.py
+```
+
+### Negation
+You can negate a pattern by prefixing with an exclamation point `(!)`
+Example:  
+```
+*.txt
+!important.txt
+```
+
+### Comments
+Add comments by prefixing with the line with a `#`
+
+### Order Matters  
+The order of patterns determins their effect. In the example, everything in the temp/ directory would be ignored except for `instructions.md`. If the order were reversed, `instructions.md` would be ignored.  
+Example:
+```
+temp/*
+!temp/instructions.md
+```
 
 ## Prime's Workflow
 ### Keep stuff on GitHub  
