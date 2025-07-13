@@ -122,7 +122,7 @@ git config --global credential.helper store
 ## Prime's Workflow
 ### Keep stuff on GitHub  
 
-    I keep all my serious projects on GitHub. That way if my computer explodes, I have a backup, and if I'm ever on another computer, I can just clone the repo and get back to work.  
+I keep all my serious projects on GitHub. That way if my computer explodes, I have a backup, and if I'm ever on another computer, I can just clone the repo and get back to work.  
 
 ### Rebase vs. Merge  
 
