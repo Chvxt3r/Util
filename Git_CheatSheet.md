@@ -30,6 +30,10 @@
     ```bash                                                                                                                                                                                  
     git clone <url>                                                                                                                                                                          
     ```
+* Adding a remote repository
+    ```bash
+    git remote add <name> <url>
+    ```
 
 ## History
 * View the git Log (History of commits)
