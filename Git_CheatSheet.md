@@ -1,10 +1,12 @@
 # Git CheatSheet
 
-## Clone a Repository
+* Set up folder as a git managed folder
     ```bash
-    git clone <url>
+    git init
     ```
-## Change Management                                                                                                                                                                         
+
+## Change Management
+
     ```bash                                                                                                                                                                                      # Track all files in the folder                                                                                                                                                              git add -all
     # Track just one file in the folder
     git add <filename>
@@ -22,6 +24,11 @@
 | Useful if you just won't to go back to a previous commit and lose all your changes
     ```bash
     git reset --hard <commithash>
+    ```
+## Repository Management                                                                                                                                                                     
+* Clone a repository
+    ```bash                                                                                                                                                                                  
+    git clone <url>                                                                                                                                                                          
     ```
 
 ## History
