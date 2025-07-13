@@ -128,9 +128,9 @@ I keep all my serious projects on GitHub. That way if my computer explodes, I ha
 
 I've configured Git to rebase by default on pull, rather than merge so I keep a linear history. If you want to do the same, you can add this to your global Git config:  
 
-    ```bash
-    git config --global pull.rebase true
-    ```
+```bash
+git config --global pull.rebase true
+```
 ### Solo Workflow  
 
 When I'm working by myself, I usually stick to a single branch, main. I mostly use Git on solo projects to keep a backup remotely and to keep a history of my changes. I only rarely use separate branches.  
