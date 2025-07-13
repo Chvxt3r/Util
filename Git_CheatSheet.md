@@ -1,12 +1,12 @@
 # Git CheatSheet
 
-* Set up folder as a git managed folder
+* Set up folder as a git managed folder  
     ```bash
     git init
     ```
 
 ## Change Management
-
+* Managing files and commits  
     ```bash                                                                                                                                                                                      # Track all files in the folder                                                                                                                                                              git add -all
     # Track just one file in the folder
     git add <filename>
