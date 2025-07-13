@@ -138,8 +138,11 @@ git config --global credential.helper store
         3. `git commit -m "a message describing the changes"`  
         4. `git push origin main`    
 
-* - Team Workflow  
-    When you're working with a team, Git gets a bit more involved (and we'll cover more of this in part 2 of this course). Here's what I do:When you're working with a team, Git gets a bit more involved (and we'll cover more of this in part 2 of this course). Here's what I do:   
+### Team Workflow  
+
+    When you're working with a team, Git gets a bit more involved (and we'll cover more of this in part 2 of this course). Here's what I do:When you're working with a team, Git gets a bit more involved (and we'll cover more of this in part 2 of this course).  
+    Here's what I do:   
+    
         - Update my local main branch with `git pull origin main`  
         - Checkout a new branch for the changes I want to make with `git switch -c <branchname>`  
         - Make changes to files  
