@@ -25,6 +25,18 @@
     ```bash
     git reset --hard <commithash>
     ```
+## Pull Requests
+| Pull Request is a way to propose changes to the rest of the team, or to the maintainer of the repo. It allows them to see what changes are being made and to discuss before merging.
+- Create a branch  
+- Make changes  
+- Stage and commit change  
+- push the new branch to GitHub  
+- Navigate to the repo  
+- Pull requests tab at the top  
+- New pull request  
+- Set base branch, set compare branch (Normally the branch you created in step 1.)  
+- Create the pull request, but don't merge  
+
 ## Repository Management                                                                                                                                                                     
 * Clone a repository
     ```bash                                                                                                                                                                                  
