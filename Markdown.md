@@ -18,17 +18,18 @@ Let's dive into it. ⤵️
 4. [Blockquote](#blockquote)
 5. [Images](#images)
 6. [Links](#links)
-7. [Code](#code)
-8. [Lists](#lists)
+7. [Emoji](#emoji)
+8. [Code](#code)
+9. [Lists](#lists)
     - [Ordered List](#orderedlist)
     - [Unordered List](#unorderedlist)
     - [Mixed List](#mixedlist)
-9. [Table](#table)
-10. [Task List](#tasklist)
-11. [Footnote](#footnote)
-12. [Jump to section](#sectionjump)
-13. [Horizontal Line](#horizontalline)
-14. [HTML](#html)
+10. [Table](#table)
+11. [Task List](#tasklist)
+12. [Footnote](#footnote)
+13. [Jump to section](#sectionjump)
+14. [Horizontal Line](#horizontalline)
+15. [HTML](#html)
 
 ---
 
@@ -155,6 +156,17 @@ Find some great docs [here][docs]
 Find some great docs [here][docs]
 
 ---
+
+<a name="emoji" />
+
+## Emoji Shortcodes
+
+You can use emoji's to add emphasis to a text block
+
+```
+:rocket: :thumbsup: :star: :warning: :white_check_mark:
+```
+___
 
 <a name="code" />
 
